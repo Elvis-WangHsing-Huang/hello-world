@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 # first python file
 
-print "Hello world"
+print "Hello world,你好!"
