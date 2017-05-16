@@ -1,3 +1,7 @@
+x = int(raw_input("Give a number:"))
+if 0 < x < 10:
+    print "%d is in range of 0<x<10" % x
+
 print "You enter a dark room with two doors. Do you go through door #1 or door #2?"
 
 door = raw_input("> ")
