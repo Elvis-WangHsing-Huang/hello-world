@@ -9,3 +9,5 @@ ALL the exercises (ex1.py ~ ex52.py) are from the "Learn Python the hard way"
 https://learnpythonthehardway.org/book/
 
 I try to keep my progress on the Github
+
+Add this line to test git fetch command
