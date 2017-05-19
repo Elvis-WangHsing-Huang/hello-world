@@ -1,3 +1,5 @@
+# Add lines in the master branch to try git command 
+# while I am modifying the ex42.py file at the other branch
 class Song(object):
 
     def __init__(self, lyrics):
