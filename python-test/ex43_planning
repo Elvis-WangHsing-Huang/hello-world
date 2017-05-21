@@ -1,0 +1,17 @@
+Game-Engine
+  run()
+
+Map (composed of all scene and their relation => Scene A to Scene B)
+  starting-scene :
+  all-scene
+  next-scene
+
+Scene:
+   - enter (show description)
+
+  Central Corridor (Starting)
+  Death (finished)
+  Laser Weapon Armory
+  The Bridge
+  Escape Pod (finished if choose the right escape pod)
+  finished-scene(alive)
