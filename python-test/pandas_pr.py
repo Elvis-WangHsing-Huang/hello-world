@@ -14,4 +14,9 @@ large_city = df['Population']>1000000
 # show four columns of the large cities with population > 1M
 print df[large_city].loc[:, ['City', "Population", "Man", "Average_age"]]
 
-# iterate through the list to show the male/female percentage of each city
+# iterate through the list to add the male/female percentage of each city
+for lab, row in df.iterrows() :
+    df.loc[lab, "percentage"]= float(df.loc[lab,'Man'])/float(df.loc[lab,'Woman'])
+    #print"Lab:%s: %s's population is %d, percentage is %d" %(lab, row[0], row[1], row['percentage'])
+
+print df
