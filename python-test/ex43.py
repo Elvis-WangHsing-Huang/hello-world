@@ -17,7 +17,7 @@ class Engine(object):
 class Scene(object):
     def enter(self):
         print ""
-        print "*** Scene ***"
+        print "*** Scene! ***"
 
 
 class Death(Scene):
